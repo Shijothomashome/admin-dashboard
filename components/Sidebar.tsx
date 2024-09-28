@@ -22,7 +22,7 @@ Link;
 
 const Sidebar = () => {
   return (
-    <Command className="bg-[#cbd5e1] rounded-none">
+    <Command className=" rounded-none border-r-[1px] border-slate-200 dark:border-slate-700">
       <CommandInput placeholder="Type a command or search..." />
       <CommandList>
         <CommandEmpty>No results found.</CommandEmpty>
